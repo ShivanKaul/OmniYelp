@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "OmniYelp",
-  "description": "Adding Yelp search to Omnibox. Exact replica of my OmniMap extension",
+  "description": "Adding Yelp search to Omnibox.",
   "version": "1.0",
 
   "background": {
