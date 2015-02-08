@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "OmniYelp",
+  "description": "Adding Yelp search to Omnibox. Exact replica of my OmniMap extension",
+  "version": "1.0",
+
+  "background": {
+      "scripts": [ "src/background.js" ]
+   },
+  "permissions": [ "tabs", "https://*.www.yelp.com/*" ],
+
+  "omnibox": { "keyword" : "yp" }
+}
