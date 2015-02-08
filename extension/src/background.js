@@ -11,7 +11,7 @@ function navigate(inputString) {
 	} else {
 		var inputURI = encodeURIComponent(inputString);	
 		chrome.tabs.getSelected( undefined, function(tab) {
-			chrome.tabs.update(tab.id, {url: "https://http://www.yelp.com/search?find_desc="+inputURI+"&src=opensearch"}, undefined);
+			chrome.tabs.update(tab.id, {url: "https://www.yelp.com/search?find_desc="+inputURI+"&src=opensearch"}, undefined);
 		}); 
 	}
 }
