@@ -1,14 +1,15 @@
 {
   "manifest_version": 2,
 
-  "name": "OmniYelp",
+  "name": "Yp",
+  "short_name": "yp",
   "description": "Adding Yelp search to Omnibox.",
-  "version": "1.0",
+  "version": "1.1",
 
   "background": {
       "scripts": [ "src/background.js" ]
    },
-  "permissions": [ "tabs", "https://*.www.yelp.com/*" ],
+  "permissions": [ "tabs" ],
 
   "omnibox": { "keyword" : "yp" }
 }
