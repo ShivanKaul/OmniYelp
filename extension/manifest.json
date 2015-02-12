@@ -4,12 +4,11 @@
   "name": "Yp",
   "short_name": "yp",
   "description": "Adding Yelp search to Omnibox.",
-  "version": "1.1",
+  "version": "1.2",
 
   "background": {
       "scripts": [ "src/background.js" ]
    },
-  "permissions": [ "tabs" ],
 
   "omnibox": { "keyword" : "yp" }
 }
